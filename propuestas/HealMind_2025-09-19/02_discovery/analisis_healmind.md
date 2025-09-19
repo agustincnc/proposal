@@ -31,10 +31,11 @@ Sector en crecimiento con competidores como Doxy.me, SimplePractice, TherapyNote
 - **IA**: Axios wrapper a servicio externo
 
 ### Deuda técnica identificada
-- **Vulnerabilidad crítica**: Token IA expuesto en frontend
+- **Vulnerabilidad**: Token IA expuesto en frontend, hay que resolverlo pero no es crítico
 - **Arquitectura monolítica**: Por el momento no es necesario cambiar la arquitectura
-- **Falta de testing**: No se identifican tests automatizados
+- **Falta de testing**: No se identifican tests automatizados es necesario avanzar en este area
 - **Escalabilidad**: Arquitectura no preparada para crecimiento exponencial
+- **Internacionalización** No esta claro que sea fácil de hacer, debería ser de los primeros temas a investigar.
 
 ## Análisis de Negocio
 ### Modelo de negocio
@@ -57,12 +58,12 @@ SaaS B2B con múltiples flujos de ingresos:
 
 ## Recursos y Capacidades
 ### Equipo técnico
-- **Actual**: Equipo externo de desarrollo (características desconocidas)
-- **Objetivo**: Internalizar 2 desarrolladores + 1 technical lead
+- **Actual**: Equipo externo de desarrollo (el equipo lo componen do desarrolaldores y una gestora del proyecto, tambien cuentan con una freelance para el diseño)
+- **Objetivo**: Incorporar al futuro lead técnico que sea el embrion del departamento de tecnología de HealMind
 - **Gap crítico**: Falta de expertise interno en IA y arquitecturas escalables
 
 ### Presupuesto estimado
-- **Fase 1** (2 meses): 2 desarrolladores × 100h = 200h totales
+- **Fase 1** (2 meses): 2 desarrolladores × 100h por mes  = 400h totales
 - **Fase 2** (4 meses): 1 desarrollador entaina + 1 nuevo reclutado
 - **Fase 3** (6 meses): Soporte de 1 desarrollador entaina
 - **Sobrecosto**: 30% sobre salario bruto del desarrollador incorporado
