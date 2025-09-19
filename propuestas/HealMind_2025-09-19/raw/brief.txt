@@ -1,0 +1,18 @@
+Cliente: HealMind
+Contexto:
+HealMind provee una aplciación a psicologos y gabinetes que facilita la prestación del servicio del psicologo a sus pacientes.
+Cuenta con un equipo de desarrollo externo, quiete internalizar el equipo de internalizar
+Han desarrollado una aplicación web, una aplicación movil y un sistema básico de IA capaz de hacer transcripciones de conversaciones entre psicologos y pacientes.
+
+Problema/Dolor:
+El equipo actual no proporciona estabildiad ni velocidad de adptación ni escalabilidad
+Objetivos:
+El objetivo es internalizar el equipo de IT pasando por una fase de estabilziación del desarrollo para ganar velocidad, reducir deuda técnica y abir el desarrollo a nuevas features ligadas a la IA.
+
+Plazos:
+Pensamos en 2 meses de dos desarrolladores de entaina, para en esos dos meses contrtar a undesarrolaldor externo que acabe siendo el responsable de IT de HealMind.
+Después habría una desarrollador de entaina trabajando con el de HealMind hasta conseguir que healmind sea independiente de entaina
+Restricciones:
+KPIs deseados:
+Anexos disponibles: Todos los documentos .md de esta carpeta.
+

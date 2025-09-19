@@ -7,22 +7,12 @@
 - Shared media belongs under `assets/`. Compress and strip metadata before committing.
 
 ## Build, Test, and Development Commands
-- Run `python -m venv .venv && source .venv/bin/activate` to create an isolated workspace.
-- Use `pip install -r requirements.txt` once dependency management lands; commit updates to the lockfile alongside code changes.
-- Lint documentation with `npx markdownlint docs/**/*.md`.
-- Execute lightweight validations with `pytest` (targeting the `tests/` package) before opening a PR.
+ESte repositorio es solo lenguaje natural, 
 
 ## Coding Style & Naming Conventions
-- Follow PEP 8 with 4-space indentation in Python modules and Black formatting (`black src tests`).
-- Name agent modules with snake_case (`src/agents/deal_closer.py`) and classes in PascalCase.
-- Markdown headings use Title Case; filenames stay lowercase with hyphens (`docs/client-alpha/brief.md`).
-- Prefer descriptive, action-focused function names (`generate_pitch`, `score_lead`).
+Escribe los comandos en castellano
 
 ## Testing Guidelines
-- New functionality requires unit coverage in `tests/` mirroring the package path (`tests/agents/test_deal_closer.py`).
-- Use pytest fixtures for sample data; keep fixtures small and anonymized.
-- Aim for >=85% coverage on agent logic. Document any exceptions in the PR description.
-- When adding prompts, include regression assertions that validate key tokens or behaviors.
 
 ## Commit & Pull Request Guidelines
 - Structure commits around a single concern; use the format `type(scope): summary` (e.g., `feat(agent): add deal closer pitch flow`).
